@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    >
+       
+    <ScrollView android:layout_width="fill_parent" android:layout_height="400dp">
+        
+	<LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+	    android:orientation="vertical">
+        
+    <Button
+        android:id="@+id/b1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="INTRODUCTION"
+        android:textSize="25dp"        
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/b2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="SOCKET PROGRAMMING"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+        
+    <Button
+        android:id="@+id/b3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="SYSTEM CALLS"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+        <Button
+        android:id="@+id/b4"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="B1"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+        
+        <Button
+        android:id="@+id/b5"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="B2"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+        
+        <Button
+        android:id="@+id/b6"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="B3"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+        
+        <Button
+        android:id="@+id/b7"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="B4"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+        </LinearLayout>   
+    </ScrollView>   
+</LinearLayout>
+
+

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    
+    
+    <ScrollView android:layout_width="fill_parent" android:layout_height="400dp">
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+	    android:orientation="vertical">
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="297dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textSize="20dp"
+        android:text="Sockets are one type of inter-process-communication.
+        So , now what is a process? A program under execution is a process.A program is the one
+        when you write it in any languages like C/C++/Java etc.. 
+        So, Two processes can communicate using sockets. A socket is the mechanism that most popular operating systems provide to give programs access to the network. 
+        It allows messages to be sent and received between applications (unrelated processes) on different networked machines."
+        android:textStyle="italic" />
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="297dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textSize="20dp"
+        android:text="PROGRAMMING WITH TCP/IP SOCKETS."
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="297dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textSize="20dp"
+        android:text="PROGRAMMING WITH TCP/IP SOCKETS."
+        android:textStyle="bold"/>    
+    "
+    </LinearLayout>"
+</ScrollView>
+</LinearLayout>
